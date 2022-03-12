@@ -1,0 +1,97 @@
+{
+    "propertyTypes": [
+        {   
+            "id": 1, 
+            "title": "Condominiums",
+            "img":"https://images.pexels.com/photos/2462015/pexels-photo-2462015.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        {   
+            "id": 2, 
+            "title": "Apartments",
+            "img":"https://images.pexels.com/photos/2119714/pexels-photo-2119714.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        {   
+            "id": 3, 
+            "title": "Resorts",
+            "img":"https://images.pexels.com/photos/3225531/pexels-photo-3225531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        },
+        {   
+            "id": 4, 
+            "title": "Hotels",
+            "img":"https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+        }
+    ],
+    "featuredPosts":[
+        {   
+            "id": 1,
+            "image" : "https://images.pexels.com/photos/2506988/pexels-photo-2506988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "id": 2,
+            "image": "https://images.pexels.com/photos/594077/pexels-photo-594077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "id": 3,
+            "image": "https://images.pexels.com/photos/860922/pexels-photo-860922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "id": 4,
+            "image": "https://images.pexels.com/photos/2403017/pexels-photo-2403017.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "id": 5,
+            "image": "https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        }
+    ],
+    "properties":[
+        {   
+            "id" : 1,
+            "title" : "Toronto Palm Trees",
+            "img" : "https://images.pexels.com/photos/2291636/pexels-photo-2291636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "price": 150,
+            "bestseller": true,
+            "description": "A flat-screen TV and a mini-fridge are equipped in all rooms at Holiday Inn Toronto Downtown Center. Additional amenities include a work desk, an in-room safe and a coffee maker. On-site dining options include The Carlton restaurant, open for breakfast and dinner. Thirty Bar, located on the lobby level, is a fully-licensed bar serving a selection of beers, wines and cocktails.",
+            "type" : "Resort",
+            "location" : "Toronto",
+            "amenities": "2 guests, 1 bed, Half-bath",
+            "rules": "No smoking/ drinking"
+        },
+        {
+            "id" : 2,
+            "title" : "Vancouver Dolphins",
+            "img": "https://images.pexels.com/photos/1458457/pexels-photo-1458457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "price": 120,
+            "bestseller": false,
+            "description":"This historic hotel is a 5 minute walk from Vancouver's Gastown district. The charming hotel offers period antiques and free WiFi. Built in 1898, the Victorian Hotel features high ceilings, hardwood floors and complex moldings. This nonsmoking hotel only uses environmentally friendly cleaning products. Guest rooms at the Victorian offer coffee makers and telephones. Some rooms are equipped with a private bathroom and sitting area. The Granville Skytrain station is a 5 minute walk from the Victorian in downtown Vancouver. The Robson Street shopping district is a 15 minute walk from the hotel. This is our guest's favorite part of Vancouver, according to independent reviews.",
+            "type": "Hotel",
+            "location" : "Vancouver",
+            "amenities": "2 guests, 1 bed, 1 bath",
+            "rules": "No pets"
+
+        },
+        {
+            "id" : 3,
+            "title" : "Montreal Hometel",
+            "img": "https://images.pexels.com/photos/261395/pexels-photo-261395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "price": 100,
+            "bestseller": true,
+            "description": "Located in Montreal's city center, it is located only steps from major attractions. It features free WiFi, a fitness center and a 24-hour front desk. A flat-screen cable TV, seating area and work desk are offered in each room at this hotel. Guests can enjoy air conditioning during the summer season. Offering 2.5 acres of beautiful gardens and streams, Montreal Bonaventure Hotel provides stunning views of the city from the year-round rooftop pool and terrace. The hotel also features several gourmet restaurants as well as spacious meeting and banquet facilities. Guests can easily discover numerous festivals, art galleries, museums and world-renowned restaurants only steps from the hotel's front doors.",
+            "type" : "Hotel",
+            "location" : "Montreal",
+            "amenities": "4 guests, 2 bed, 2 bath",
+            "rules": "No smoking/ drinking"
+        },
+        {
+            "id" : 4,
+            "title" : "Resident In",
+            "img": "https://images.pexels.com/photos/3454077/pexels-photo-3454077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "price": 115,
+            "bestseller": true,
+            "description": "Free WiFi is included. A flat-screen cable TV, desk and seating area are offered in each room. Air conditioning, a microwave and refrigerator are also provided. Guests have access to a business center, a gift shop and a sauna. The on-site restaurant, Restaurant Volare, serves authentic Italian cuisine for breakfast, lunch, dinner and room service. After dinner, guests can have a drink with friends in the Connection Lounge. It is less than 3.1 mi from Montréal-Pierre Elliott Trudeau International Airport. Saint Joseph's Oratory of Mount Royal is 10 minutes drive away.",
+            "type" : "Hotel",
+            "location" : "Ottawa",
+            "amenities": "4 guests, 2 bed, 1 bath",
+            "rules": "Silence, No party"
+        }
+    ]
+  }
