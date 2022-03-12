@@ -22,7 +22,7 @@ function App() {
           element={<VacationPropertiesPage />}
         />
         <Route path="/property/:id" element={<DescriptionPage />} />
-        <Route path="/properties/:title" element={<PropertyTypes />} />
+        <Route path="/propertyType/:title" element={<PropertyTypes />} />
       </Routes>
     </BrowserRouter>
   );
