@@ -44,6 +44,8 @@ const PropertyTypes = () => {
         })
         .map((property) => (
           <ListCard
+            key = {property.id}
+            id = {property.id}
             title={property.title}
             img={property.img}
             price={property.price}
