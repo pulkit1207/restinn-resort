@@ -37,7 +37,7 @@ const ListCard = (props) => {
 
           <h2 className="property-title">{props.title}</h2>
 
-          <p><FcCurrencyExchange />{props.price} per night</p>
+          <p><FcCurrencyExchange />CAD {props.price} per night</p>
 
           <div className="property-cta">
             <Link to={`/property/${props.id}`} className="button">

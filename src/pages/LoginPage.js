@@ -74,7 +74,7 @@ const LoginPage = () => {
                   if (validateForm()) {
                     alert("Logging in");
                   } else {
-                    alert("There are errors");
+                    alert("There are errors: Please fill all the fields");
                   }
                 }}
               >
