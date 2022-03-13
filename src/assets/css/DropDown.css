@@ -1,10 +1,10 @@
 .submenu {
-  width: 9.2rem;
+  width: 9.4rem;
   position: absolute;
   list-style: none;
   text-align: center;
   top: 60px;
-  border-radius: 10px;
+
 }
 
 .submenu.clicked {

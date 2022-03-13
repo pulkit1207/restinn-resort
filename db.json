@@ -53,7 +53,7 @@
             "description": "A flat-screen TV and a mini-fridge are equipped in all rooms. On-site dining options include The Carlton restaurant, open for breakfast and dinner. Thirty Bar, located on the lobby level, is a fully-licensed bar serving a selection of beers, wines and cocktails.",
             "type" : "Resort",
             "location" : "Toronto",
-            "amenities": "2 guests, 1 bed, Half-bath",
+            "amenities": "Swimming pool",
             "rules": "No smoking/ drinking"
         },
         {
@@ -62,10 +62,10 @@
             "img": "https://images.pexels.com/photos/1458457/pexels-photo-1458457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "price": 120,
             "bestseller": false,
-            "description":"This historic hotel is a 5 minute walk from Vancouver's Gastown district. The charming hotel offers period antiques and free WiFi. The hotel features high ceilings, hardwood floors and complex moldings. This nonsmoking hotel only uses environmentally friendly cleaning products. Guest rooms offer coffee makers and telephones. The Granville Skytrain station is a 5 minute walk. The Robson Street shopping district is a 15 minute walk from the hotel. This is our guest's favorite part of Vancouver, according to independent reviews.",
+            "description":"This historic hotel is a 5 minute walk from Vancouver's Gastown district. The charming hotel offers period antiques and free WiFi. The hotel features high ceilings, hardwood floors and complex moldings. This nonsmoking hotel only uses environmentally friendly cleaning products. Guest rooms offer coffee makers and telephones. The Granville Skytrain station is a 5 minute walk. This is our guest's favorite part of Vancouver, according to independent reviews.",
             "type": "Hotel",
             "location" : "Vancouver",
-            "amenities": "2 guests, 1 bed, 1 bath",
+            "amenities": "Gym, Swimming pool, bar, restaurant",
             "rules": "No party"
 
         },
@@ -75,10 +75,10 @@
             "img": "https://images.pexels.com/photos/261395/pexels-photo-261395.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "price": 100,
             "bestseller": true,
-            "description": "Located in Montreal's city center, it is located only steps from major attractions. It features free WiFi, a fitness center and a 24-hour front desk. Guests can enjoy air conditioning during the summer season. Offering 2.5 acres of beautiful gardens and streams, Hometel provides stunning views of the city from the year-round rooftop pool and terrace. The hotel also features several gourmet restaurants as well as spacious meeting and banquet facilities. Guests can easily discover numerous festivals, art galleries, museums and world-renowned restaurants only steps from the hotel's front doors.",
+            "description": "Located in Montreal's city center, it is located only steps from major attractions. It features free WiFi, a fitness center and a 24-hour front desk. Guests can enjoy air conditioning during the summer season. Offering 2.5 acres of beautiful gardens and streams, Hometel provides stunning views of the city from the year-round rooftop pool and terrace. The hotel also features several gourmet restaurants as well as spacious meeting and banquet facilities.",
             "type" : "Hotel",
             "location" : "Montreal",
-            "amenities": "4 guests, 2 bed, 2 bath",
+            "amenities": "Gym, Restaurant",
             "rules": "No smoking/ drinking"
         },
         {
@@ -90,7 +90,7 @@
             "description": "Air conditioning, a microwave and refrigerator are also provided. Guests have access to a business center, a gift shop and a sauna. The on-site restaurant, Restaurant Volare, serves authentic Italian cuisine for breakfast, lunch, dinner and room service. After dinner, guests can have a drink with friends in the Connection Lounge. It is less than 3.1 mi from Montréal-Pierre Elliott Trudeau International Airport. Saint Joseph's Oratory of Mount Royal is 10 minutes drive away.",
             "type" : "Hotel",
             "location" : "Ottawa",
-            "amenities": "4 guests, 2 bed, 1 bath",
+            "amenities": "Bar, Restaurant",
             "rules": "Silence, No party"
         },
         {
@@ -102,7 +102,7 @@
             "description": "This property is a 18-minute walk from the beach. Located a 12-minute walk from Kisuski Beach, Mr. Soof - By TLV2GO offers air-conditioned accommodations with a balcony and free WiFi.Each unit comes with a sofa, a seating area, a flat-screen TV with cable channels, a well-fitted kitchenette, and a private bathroom with a hairdryer. A microwave, a minibar and stovetop are also provided, as well as an electric tea pot and a coffee machine.",
             "type" : "Apartment",
             "location" : "Kamloops",
-            "amenities": "2 guests, 2 bed, 1 bath",
+            "amenities": "Heat, Hydro, Wifi",
             "rules": "No pets"
         },
         {
@@ -110,12 +110,108 @@
             "title" : "Fern Residency",
             "img": "https://images.unsplash.com/photo-1574362848149-11496d93a7c7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1084&q=80",
             "price": 110,
-            "bestseller": true,
+            "bestseller": false,
             "description": "Rooms in the hotel feature a kitchen and a bathroom and equipped with a coffee machine. The units feature a seating area with flat-screen TV.",
             "type" : "Condominium",
             "location" : "Pickering",
-            "amenities": "4 guests, 4 bed, 2 bath",
+            "amenities": "Heat, hydro, electricity",
             "rules": "No pets"
+        },
+        {
+            "id" : 8,
+            "title" : "Town Suites",
+            "img": "https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "price": 200,
+            "bestseller": true,
+            "description": "It is located within a 5-minute walk of the Bloor-Yonge Subway Station. These spacious suites offer a fully equipped kitchen. Accommodations at Town Inn Furnished Suites provide cable TV. There is a dining area and a separate seating area with a sofa. The contemporary suites also have a desk. Town Inn Furnished Suites has a 24-hour front desk.",
+            "type" : "Apartment",
+            "location" : "Toronto",
+            "amenities": "Heat, hydro, gym",
+            "rules": "No pets"
+        },
+        {
+            "id" : 9,
+            "title" : "Cloud 9 Inn",
+            "img": "https://images.unsplash.com/photo-1596178060810-72f53ce9a65c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "price": 130,
+            "bestseller": false,
+            "description": "Located in Whitecourt, Cloud 9 Inn has a terrace and free WiFi throughout the property. Featuring family rooms, this property also provides guests with a grill. Rooms contain a desk, a flat-screen TV, a private bathroom, bed linen and towels. All rooms have a coffee machine, while certain rooms are equipped with a kitchen with a microwave, a fridge and an oven. The rooms at Cloud 9 Inn have air conditioning and a closet.",
+            "type" : "Resort",
+            "location" : "Whitecourt",
+            "amenities": "Swimming pool, gym",
+            "rules": "No party"
+        },
+        {
+            "id" : 10,
+            "title" : "Hotel Rodd Grand Yarmouth",
+            "img": "https://images.unsplash.com/photo-1587213811864-46e59f6873b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "price": 105,
+            "bestseller": false,
+            "description": "Located along Highway 1, it is just 2 minutes walk from Firefighters Museum of Nova Scotia & National Exhibition Center. It features on-site dining and an indoor pool. Guest rooms include free Wi-Fi. A cable TV and a work desk are furnished in each room at Rodd Grand Yarmouth. The traditionally styled rooms also include a clock radio and coffee-making facilities.",
+            "type" : "Hotel",
+            "location" : "Yarmouth",
+            "amenities": "Gym, restaurant, bar",
+            "rules": "No smoking/ drinking"
+        },
+        {
+            "id" : 11,
+            "title" : "707 - 219 Dundas St E",
+            "img": "https://images.unsplash.com/photo-1561321698-40ae82a47b9e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "price": 130,
+            "bestseller": false,
+            "description": "New Building Never Lived In - 3 Bedrooms. Open Concept Kitchen Living Room - 2 Full Bathrooms, 846 Sqft. Ensuite Laundry, Stainless Steel Kitchen Appliances Included. Engineered Hardwood Floors, Stone Counter Tops And A Nice Balcony Giving You An Astonishing North-West View Of The City.",
+            "type" : "Condominium",
+            "location" : "Toronto",
+            "amenities": "Balcony, Parking",
+            "rules": "No outsiders"
+        },
+        {
+            "id" : 12,
+            "title" : "229 - 8855 Sheppard Ave E",
+            "img": "https://images.unsplash.com/photo-1597833406252-d8b1f7ef034d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+            "price": 110,
+            "bestseller": false,
+            "description": "Beautiful Open Concept Spacious Modern Stacked Apartment Town Built By Tribute In The Prime Location Of Rouge Valley Community. Lots Of Upgrades, 9Ft Ceilings, Granite Countertops, Full Door Glass Shower, Laminate Flooring Throughout With 2 Bedrooms Plus Den & 2 Full Washrooms.",
+            "type" : "Apartment",
+            "location" : "",
+            "amenities": "Heat, Hydro, Balcony",
+            "rules": "No party"
+        },
+        {
+            "id" : 13,
+            "title" : "Embassy Resorts",
+            "img": "https://images.unsplash.com/photo-1582610116397-edb318620f90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+            "price": 190,
+            "bestseller": false,
+            "description": "The Embassy Resorts by Hilton Niagara Falls Fallsview is an all luxury suites and only a hundred yards away from brink of the Falls. It offers spacious two room suites with a separate living room and bedroom.",
+            "type" : "Resort",
+            "location" : "Niagara",
+            "amenities": "Restaurant, gym, swimming pool, bar",
+            "rules": "No loud music"
+        },
+        {
+            "id" : 14,
+            "title" : "Fairmont Banff Springs",
+            "img": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
+            "price": 160,
+            "bestseller": false,
+            "description": "Located in the heart of Banff National Park, a UNESCO World Heritage Site, the world famous Fairmont Banff Springs resort stands as a landmark in the picturesque alpine town of Banff. This year round luxury resort is styled after a Scottish baronial castle and offers guests spectacular mountain and valley views, a championship golf course during the summer, unparalleled skiing in the winter, and an award-winning European-style spa, the Willow Steam Spa.",
+            "type" : "Resort",
+            "location" : "Banff",
+            "amenities": "Restaurant",
+            "rules": "No pets"
+        },
+        {
+            "id" : 15,
+            "title" : "Montreux",
+            "img": "https://images.unsplash.com/photo-1618219375715-87b91babf592?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
+            "price": 122,
+            "bestseller": false,
+            "description": "These mid-rise Vancouver condos were built in 2006 by Bastion Development Corporation. Located in East Side's Mount Pleasant neighbourhood, the nearest main intersection to Montreux is EB w 2 Ave NS Cambie St. Montreux is a 9 storey condo, located at Montreux. This Vancouver condo has 92 units. ",
+            "type" : "Condominium",
+            "location" : "Vancouver",
+            "amenities": "Heat, hydro, wifi",
+            "rules": "No smoking/ drinking"
         }
     ]
   }
