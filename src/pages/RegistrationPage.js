@@ -118,7 +118,7 @@ const RegistrationPage = () => {
                   if (validateForm()) {
                     alert("Registered");
                   } else {
-                    alert("There are errors");
+                    alert("There are errors: Please fill all the fields");
                   }
                 }}
               >
