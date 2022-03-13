@@ -3,7 +3,7 @@ import "../assets/css/PropertyList.css";
 import React from "react";
 import { Link } from "react-router-dom";
 
-import {  FcLandscape, FcRating, FcHome} from "react-icons/fc";
+import {  FcLandscape, FcRating, FcHome, FcCurrencyExchange} from "react-icons/fc";
 
 const ListCard = (props) => {
   return (
@@ -37,7 +37,7 @@ const ListCard = (props) => {
 
           <h2 className="property-title">{props.title}</h2>
 
-          <p> {props.description}</p>
+          <p><FcCurrencyExchange />{props.price} per night</p>
 
           <div className="property-cta">
             <Link to={`/property/${props.id}`} className="button">

@@ -51,8 +51,8 @@ const DescriptionPage = () => {
             </div>
 
             <div className="row">
-              <p> Amenities: {resort.amenities} </p>
-              <p> House Rules: {resort.rules}</p>
+              <p> <b>Amenities:</b> {resort.amenities} </p>
+              <p> <b>House Rules:</b> {resort.rules}</p>
             </div>
 
             <p> {resort.description}</p>

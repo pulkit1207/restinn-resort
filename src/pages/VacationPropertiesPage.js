@@ -34,6 +34,8 @@ const PropertiesPage = () => {
       <Navbar />
       {allProperties.map((property) => (
         <ListCard
+          key = {property.id}
+          id = {property.id}
           title={property.title}
           img={property.img}
           price={property.price}
