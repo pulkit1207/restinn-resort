@@ -54,7 +54,7 @@ const RegistrationPage = () => {
     <div>
       <Navbar />
       <div className="form-container">
-        <div className="form-wrapper">
+        <div className="app-wrapper">
           <div>
             <h2 className="title"> Create a new account</h2>
           </div>
