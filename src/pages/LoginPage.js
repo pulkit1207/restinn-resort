@@ -10,6 +10,10 @@ const LoginPage = () => {
   const [errorEmail, setErrorEmail] = useState("");
   const [errorPassword, setErrorPassword] = useState("");
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  }
+
   const validateForm = () => {
     let isValidated = true;
     if (email === "") {
@@ -36,7 +40,7 @@ const LoginPage = () => {
           <div>
             <h2 className="title"> Login</h2>
           </div>
-          <form className="form-wrapper">
+          <form className="form-wrapper" onSubmit={handleSubmit}>
             <div className="email">
               <label className="label">Email</label>
               <input

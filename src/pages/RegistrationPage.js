@@ -14,6 +14,10 @@ const RegistrationPage = () => {
   const [errorEmail, setErrorEmail] = useState("");
   const [errorPassword, setErrorPassword] = useState("");
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  }
+
   const validateForm = () => {
     let isValidated = true;
     if (firstName === "") {
@@ -50,11 +54,11 @@ const RegistrationPage = () => {
     <div>
       <Navbar />
       <div className="form-container">
-        <div className="form-wrapper">
+        <div className="app-wrapper">
           <div>
             <h2 className="title"> Create a new account</h2>
           </div>
-          <form className="form-wrapper">
+          <form className="form-wrapper" onSubmit={handleSubmit}>
             <div className="name">
               <label className="label">First Name</label>
               <input
