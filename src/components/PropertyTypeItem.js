@@ -8,7 +8,7 @@ const PropertyTypeItem = (props) => {
     <div class="card">
       <div class="content">
         <div class="img-box">
-          <Link to={`propertyType/${props.title}`}>
+          <Link to={`/propertyType/${props.title}`}>
             <img src={props.img} alt="" />
           </Link>
         </div>

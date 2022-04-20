@@ -15,7 +15,7 @@ const BestSellerList = () => {
   ]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/properties")
+    fetch("http://localhost:8085/properties")
       .then((response) => response.json())
       .then((json) => {
         setSetBestSellers(json);
@@ -33,7 +33,7 @@ const BestSellerList = () => {
         <div className="card-container">
           {bestSellers
             .filter((item) => {
-              if (item.bestseller === true) {
+              if (item.bestSeller === true) {
                 return item;
               } else {
                 return null;

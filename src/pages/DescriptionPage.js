@@ -17,7 +17,7 @@ const DescriptionPage = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/properties/${id}`)
+    fetch(`http://localhost:8085/properties/${id}`)
       .then((response) => response.json())
       .then((json) => {
         setResort(json);

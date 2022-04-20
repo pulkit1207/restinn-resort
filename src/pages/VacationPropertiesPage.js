@@ -19,7 +19,7 @@ const PropertiesPage = () => {
   ]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/properties")
+    fetch("http://localhost:8085/properties")
       .then((response) => response.json())
       .then((json) => {
         setAllProperties(json);
@@ -39,7 +39,7 @@ const PropertiesPage = () => {
           title={property.title}
           img={property.img}
           price={property.price}
-          bestseller={property.bestseller}
+          bestseller={property.bestSeller}
           description={property.description}
           type={property.type}
           location={property.location}

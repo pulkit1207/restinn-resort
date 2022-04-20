@@ -13,7 +13,7 @@ export const Carousel = () => {
   ]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/featuredPosts")
+    fetch("http://localhost:8085/properties/featured")
       .then((response) => response.json())
       .then((json) => {
         setCarouselData(json);
@@ -44,7 +44,7 @@ export const Carousel = () => {
             key={index}
           >
             {index === current && (
-              <img src={slide.image} className="image" alt="" />
+              <img src={slide.img} className="image" alt="" />
             )}
           </div>
         );

@@ -21,7 +21,7 @@ const PropertyTypes = () => {
   let params = useParams();
 
   useEffect(() => {
-    fetch("http://localhost:5000/properties")
+    fetch("http://localhost:8085/properties")
       .then((response) => response.json())
       .then((json) => {
         setAllProperties(json);

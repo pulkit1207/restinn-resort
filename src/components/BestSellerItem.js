@@ -10,7 +10,7 @@ const BestSellerItem = (props) => {
     <div class="card">
       <div class="content">
         <div class="img-box">
-          <Link to={`/bestseller/${props.id}`}>
+          <Link to={`/properties/${props.id}`}>
             <img src={props.img} alt="" />
           </Link>
         </div>
