@@ -1,6 +1,7 @@
 import "../assets/css/Form.css";
 
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -13,10 +14,20 @@ const RegistrationPage = () => {
   const [errorLastName, setErrorLastName] = useState("");
   const [errorEmail, setErrorEmail] = useState("");
   const [errorPassword, setErrorPassword] = useState("");
+  const navigate = useNavigate();
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-  }
+  const signUp = () => {
+    const registerData = { firstName, lastName, email, password };
+    console.warn(registerData);
+    fetch("http://localhost:8085/users", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(registerData),
+    }).then(() => {
+      console.log("New user added");
+      navigate("/login");
+    });
+  };
 
   const validateForm = () => {
     let isValidated = true;
@@ -58,7 +69,7 @@ const RegistrationPage = () => {
           <div>
             <h2 className="title"> Create a new account</h2>
           </div>
-          <form className="form-wrapper" onSubmit={handleSubmit}>
+          <form className="form-wrapper">
             <div className="name">
               <label className="label">First Name</label>
               <input
@@ -102,7 +113,7 @@ const RegistrationPage = () => {
               <label className="label">Enter Password</label>
               <input
                 className="input"
-                type="text"
+                type="password"
                 name="password"
                 value={password}
                 onChange={(event) => {
@@ -114,9 +125,10 @@ const RegistrationPage = () => {
             <div>
               <button
                 className="submit"
-                onClick={() => {
+                onClick={(e) => {
+                  e.preventDefault();
                   if (validateForm()) {
-                    alert("Registered");
+                    signUp();
                   } else {
                     alert("There are errors: Please fill all the fields");
                   }

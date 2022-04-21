@@ -9,7 +9,7 @@ const BestSellerList = () => {
       id: 0,
       title: "",
       img: null,
-      price: 0,
+      propertyPrice: 0,
       bestseller: false,
     },
   ]);
@@ -41,10 +41,11 @@ const BestSellerList = () => {
             })
             .map((bestSeller) => (
               <BestSellerItem
+                key={bestSeller.id}
                 id={bestSeller.id}
                 title={bestSeller.title}
                 img={bestSeller.img}
-                price={bestSeller.price}
+                price={bestSeller.propertyPrice}
               />
             ))}
         </div>

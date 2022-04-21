@@ -1,11 +1,30 @@
 import "../assets/css/Navbar.css";
+import "../assets/css/Search.css";
 
-import React from "react";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Searchbox = () => {
+  const [search, setSearch] = useState("");
+  const navigate = useNavigate();
+
   return (
-    <div className="search-box">
-      <input type="text" className="searchbox-input" placeholder="Search..." />
+    <div className="my-search">
+      <div className="search-box">
+        <input
+          type="text"
+          className="search"
+          placeholder="Search..."
+          onChange={(event) => {
+            setSearch(event.target.value);
+          }}
+        />
+        <button type="submit" className="search-btn" onClick ={(e)=>{
+          navigate(`/properties/search/${search}`)
+        }}> 
+          Search
+        </button>
+      </div>
     </div>
   );
 };

@@ -87,6 +87,9 @@ p {
   display: none;
 }
 
+.full{
+  min-height: 400px;
+}
 @media screen and (min-width: 900px) {
   .card {
     display: flex;
@@ -105,3 +108,4 @@ p {
     flex-direction: column;
   }
 }
+

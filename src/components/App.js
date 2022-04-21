@@ -8,6 +8,7 @@ import PropertyTypes from "../pages/PropertyTypes";
 import RegistrationPage from "../pages/RegistrationPage";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SearchPage from "../pages/SearchPage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           element={<VacationPropertiesPage />}
         />
         <Route path="/property/:id" element={<DescriptionPage />} />
+        <Route path="/properties/search/:searchTitle" element={<SearchPage />} />
         <Route path="/propertyType/:title" element={<PropertyTypes />} />
       </Routes>
     </BrowserRouter>
