@@ -10,6 +10,16 @@ const LoginPage = () => {
   const [errorEmail, setErrorEmail] = useState("");
   const [errorPassword, setErrorPassword] = useState("");
 
+  const login = () => {
+    const loginData = { email, password };
+    console.warn(loginData);
+    fetch("http://localhost:8085/auth", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(loginData),
+    });
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
   }
@@ -58,7 +68,7 @@ const LoginPage = () => {
               <label className="label">Enter Password</label>
               <input
                 className="input"
-                type="text"
+                type="password"
                 name="password"
                 value={password}
                 onChange={(event) => {
@@ -70,9 +80,10 @@ const LoginPage = () => {
             <div>
               <button
                 className="submit"
-                onClick={() => {
+                onClick={(e) => {
+                  e.preventDefault();
                   if (validateForm()) {
-                    alert("Logging in");
+                    login();
                   } else {
                     alert("There are errors: Please fill all the fields");
                   }

@@ -25,6 +25,13 @@ export const Navbar = (props) => {
             <Link to="/vacationProperties">Vacation Properties</Link>
           </li>
           <li className="nav-item">
+            <Link to="/login">Login</Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/register">Register</Link>
+          </li>
+          
+          {/* <li className="nav-item">
             <button
               className="btn"
               onClick={() => setShowDropdown(!showDropdown)}
@@ -32,7 +39,7 @@ export const Navbar = (props) => {
               Login | Register
             </button>
             {showDropdown && <DropDown />}
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>
