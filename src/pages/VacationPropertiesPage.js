@@ -11,7 +11,7 @@ const PropertiesPage = () => {
       title: "",
       img: null,
       price: 0,
-      bestseller: null,
+      bestSeller: null,
       description: "",
       type: "",
       location: "",
@@ -38,7 +38,7 @@ const PropertiesPage = () => {
           id = {property.id}
           title={property.title}
           img={property.img}
-          price={property.price}
+          price={property.propertyPrice}
           bestseller={property.bestSeller}
           description={property.description}
           type={property.type}

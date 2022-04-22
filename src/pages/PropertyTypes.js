@@ -11,7 +11,7 @@ const PropertyTypes = () => {
       title: "",
       img: null,
       propertyPrice: 0,
-      bestseller: null,
+      bestSeller: null,
       description: "",
       type: "",
       location: "",
