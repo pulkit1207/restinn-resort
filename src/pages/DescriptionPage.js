@@ -11,7 +11,7 @@ const DescriptionPage = () => {
     id: 0,
     title: "",
     image: null,
-    price: 0,
+    propertyPrice: 0,
   });
 
   const { id } = useParams();
@@ -40,7 +40,7 @@ const DescriptionPage = () => {
             <div className="row">
               <h2>{resort.title}</h2>
               <span>
-                <FcCurrencyExchange /> CAD {resort.price} per night
+                <FcCurrencyExchange /> CAD {resort.propertyPrice} per night
               </span>
               <span>
                 <FcLandscape /> {resort.location}

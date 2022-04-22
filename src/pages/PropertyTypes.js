@@ -10,7 +10,7 @@ const PropertyTypes = () => {
       id: 0,
       title: "",
       img: null,
-      price: 0,
+      propertyPrice: 0,
       bestseller: null,
       description: "",
       type: "",
@@ -48,7 +48,7 @@ const PropertyTypes = () => {
             id={property.id}
             title={property.title}
             img={property.img}
-            price={property.price}
+            price={property.propertyPrice}
             bestseller={property.bestseller}
             description={property.description}
             type={property.type}
