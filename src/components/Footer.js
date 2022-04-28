@@ -20,17 +20,17 @@ const Footer = () => {
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/" className="social-media">
+            <a href="https://www.instagram.com/" className="social-media">
               <TiSocialInstagram />
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/" className="social-media">
+            <a href="https://www.twitter.com/" className="social-media">
               <TiSocialTwitter />
             </a>
           </li>
           <li>
-            <a href="https://www.facebook.com/" className="social-media">
+            <a href="https://www.linkedin.com/" className="social-media">
               <TiSocialLinkedin />
             </a>
           </li>

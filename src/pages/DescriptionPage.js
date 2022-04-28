@@ -17,7 +17,7 @@ const DescriptionPage = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:8085/properties/${id}`)
+    fetch(`https://rest-inn-resort-app.herokuapp.com/properties/${id}`)
       .then((response) => response.json())
       .then((json) => {
         setResort(json);

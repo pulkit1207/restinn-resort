@@ -15,7 +15,7 @@ const BestSellerList = () => {
   ]);
 
   useEffect(() => {
-    fetch("http://localhost:8085/properties")
+    fetch("https://rest-inn-resort-app.herokuapp.com/properties")
       .then((response) => response.json())
       .then((json) => {
         setSetBestSellers(json);

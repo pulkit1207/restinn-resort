@@ -22,7 +22,7 @@ const SearchPage = () => {
   let params = useParams();
 
   useEffect(() => {
-    fetch(`http://localhost:8085/properties/search/${params.searchTitle}`)
+    fetch(`https://rest-inn-resort-app.herokuapp.com/properties/search/${params.searchTitle}`)
       .then((response) => response.json())
       .then((json) => {
         setSearchProperties(json);

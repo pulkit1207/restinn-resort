@@ -19,7 +19,7 @@ const RegistrationPage = () => {
   const signUp = () => {
     const registerData = { firstName, lastName, email, password };
     console.warn(registerData);
-    fetch("http://localhost:8085/users", {
+    fetch("https://rest-inn-resort-app.herokuapp.com/users", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(registerData),

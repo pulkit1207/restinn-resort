@@ -13,7 +13,7 @@ export const Carousel = () => {
   ]);
 
   useEffect(() => {
-    fetch("http://localhost:8085/properties/featured")
+    fetch("https://rest-inn-resort-app.herokuapp.com/properties/featured")
       .then((response) => response.json())
       .then((json) => {
         setCarouselData(json);

@@ -13,7 +13,7 @@ const LoginPage = () => {
   const login = () => {
     const loginData = { email, password };
     console.warn(loginData);
-    fetch("http://localhost:8085/auth", {
+    fetch("https://rest-inn-resort-app.herokuapp.com/auth", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(loginData),
