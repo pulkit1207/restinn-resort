@@ -14,7 +14,7 @@ const Searchbox = () => {
         <input
           type="text"
           className="search"
-          placeholder="Search..."
+          placeholder="Search by Property Type"
           onChange={(event) => {
             setSearch(event.target.value);
           }}

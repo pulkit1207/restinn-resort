@@ -1,6 +1,5 @@
 import "../assets/css/Cards.css";
 
-import React, { useState, useEffect } from "react";
 import PropertyTypeItem from "./PropertyTypeItem";
 
 const PropertyTypeList = () => {
